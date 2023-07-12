@@ -1,25 +1,53 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 /* header part style */
-.header{
-    display: flex;
-    padding: 50px 150px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(234, 216, 219);
-    
+.header {
+  display: flex;
+  padding: 50px 150px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(240, 228, 230);
 }
-.header-caption{
+.header-caption {
+  max-width: 500px;
+}
+.header-title {
+  font-weight: 800px;
+}
+.header-btn {
+  background-color: lightsalmon;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* <<-------header section style ends--------->> */
+
+.hot-deal {
+  display: flex;
+  padding: 50px 150px;
+  background-color: rgba(244, 202, 211, 0.5);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.hot-deal-btn {
+  background-color: lightsalmon;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 200px;
+  margin-top: 10px;
+  
+}
+.hot-deal-text{
+    color:rgb(236, 109, 130);
+}
+.hot-deals-details{
     max-width: 500px;
-}
-.header-title{
-    font-weight: 800px;
-}
-.header-btn{
-    background-color: lightsalmon;
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
+    margin-left: 200px;
 }
