@@ -122,3 +122,22 @@ body {
   border: none;
   border-radius: 5px;
 }
+
+/* <<------------------subscription section style done---------------->> */
+
+.footer{
+  background-color: rgb(230, 236, 236);
+ padding: 50px;
+  
+ 
+}
+.footer-text{
+  color: crimson;
+}
+.footer-detail{
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
