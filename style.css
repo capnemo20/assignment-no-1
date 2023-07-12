@@ -1,3 +1,25 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* header part style */
+.header{
+    display: flex;
+    padding: 50px 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(234, 216, 219);
+    
+}
+.header-caption{
+    max-width: 500px;
+}
+.header-title{
+    font-weight: 800px;
+}
+.header-btn{
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
 }
