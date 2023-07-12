@@ -171,3 +171,22 @@ body {
   padding: 10px;
   border-radius: 150px 150px 0 0;
 }
+
+.bonus-sec-2{
+  
+  margin-left: 200px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  
+  background-color: rgb(209, 218, 218);
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.bonus-pt-2-inside{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
